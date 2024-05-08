@@ -4,7 +4,7 @@ import { handleError } from "./handleError.js";
 import { currentWeatherData } from "./currentWeatherData.js";
 import { weatherForecastData } from "./weatherForecastData.js";
 
-const API_KEY = import.meta.env.VITE_API_KEY;
+//const API_KEY = import.meta.env.VITE_API_KEY;
 const API_KEY = "ea9340e239b72acef6ed70bf2a32d157";
 
 const searchBoxInput = document.querySelector(".search-box-input");
